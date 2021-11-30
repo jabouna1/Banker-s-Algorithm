@@ -149,7 +149,7 @@ int main(int argc, char *argv[]) {
 
 		}
 		
-		//if there is no a single need <= available that is true in iteration than system is unsafe
+		//if there is not a single need <= available that is true in iteration than system is unsafe
 		if(!atleastOnePush) {
 			std::cout<<"The system is not in safe state."<<std::endl;
 			return 1;	
